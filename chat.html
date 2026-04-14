@@ -21,8 +21,8 @@
      <input type="text" placeholder="Last Name" id="last-name" required />
         </div>
       <div class="details">
-<input type="email" placeholder="Email Address" id="email" required/>
-<input type="password" placeholder="Password" id="password" required />
+<input type="email" placeholder="Email Address" id="login-email" required/>
+<input type="password" placeholder="Password" id="login-password" required />
       </div>
       <div class="btn">
         <button type="Submit">Log In</button>
@@ -42,14 +42,14 @@
         <input type="text" placeholder="Last Name" id="last_name" required/>
         <input type="text" placeholder="Surname" id="surname" required/>
         <div class="checkbox">
-          <p>
-            Male <input type="radio" id="male-radio" />
-          </p>
-          <p>
-            Female <input type="radio" id="female-radio" />
-          </p>
-          <input type="email" placeholder="Email" id="email" />
-        <input type="password" placeholder="Password" id="password" required />
+<label for="male-gender">Male</label>
+<input type="radio" id="male-radio" name="gender"/>
+          <br />
+          <label for="female-gender">Female</label>
+            <input type="radio" id="female-radio" name="gender" />
+            <br />
+          <input type="email" placeholder="Email" id="signup-email" />
+        <input type="password" placeholder="Password" id="signup-password" required />
         <input type="password" placeholder="Confirm Password" id="confirm-password" required/>
           <p>
             <input type="checkbox" id="terms" required/> I hereby consent that I've read and agreed to Demo Chat <a href="">Terms Of Service</a>
